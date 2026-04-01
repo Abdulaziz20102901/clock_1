@@ -359,4 +359,71 @@ nav .container .nav_button .button_2 button:active {
 }
 .hero .container .hero_bottom .hero_bottom_button button:active {
   transform: scale(0.9);
+}
+
+.things {
+  background-color: #F4F5F9;
+  padding: 70px 0px;
+}
+.things .container .things_title {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+.things .container .things_title .things_title_text {
+  text-align: center;
+}
+.things .container .things_title .things_title_text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #222222;
+}
+.things .container .things_title .things_title_text h1 :nth-child(1) {
+  color: #fa7436;
+}
+.things .container .things_title .things_title_text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+  width: 480px;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+.things .container .things_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.things .container .things_box .things_card {
+  background-color: white;
+  width: 320px;
+  border-radius: 10px;
+  padding: 25px 30px;
+  transition: all 0.3s ease;
+}
+.things .container .things_box .things_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 5px 1px gray;
+  cursor: pointer;
+}
+.things .container .things_box .things_card:active {
+  transform: scale(0.9);
+}
+.things .container .things_box .things_card img {
+  margin-bottom: 30px;
+}
+.things .container .things_box .things_card h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #222222;
+  margin-bottom: 15px;
+}
+.things .container .things_box .things_card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  width: 230px;
 }/*# sourceMappingURL=main.css.map */
